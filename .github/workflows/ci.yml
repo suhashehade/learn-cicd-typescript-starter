@@ -37,6 +37,3 @@ jobs:
           node-version: 22
       - name: Check Formaing
         run: npm run format:check
-
-      - name: Formaing
-        run: npm run format:write
