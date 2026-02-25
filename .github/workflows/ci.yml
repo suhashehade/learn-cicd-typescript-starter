@@ -28,5 +28,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      name: Formaing
-      run: npm run format:check
+      - name: Formaing
+        run: npm run format:check
